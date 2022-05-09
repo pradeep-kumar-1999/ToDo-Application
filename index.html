@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading"> Todo List Application</h1>
+        <div class="addTask">
+            <input type="text" placeholder="Enter your task" id="addtaskinput" />
+            <input type="hidden" id="saveindex">
+            <div class="btn-box">
+                <button class="btn btn-add" type="button" id="addtaskbtn">Add Task</button>
+                <button class="btn btn-save" type="button" id="savetaskbtn" style="display: none;">Save Task</button>
+            </div>
+        </div>
+
+        <div class="output">
+            <table id="addedtasklist"></table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

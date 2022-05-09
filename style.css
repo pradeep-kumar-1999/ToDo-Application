@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira sans", sans-serif;
+    /* background-image: url("background.jpg"); */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5rem;
+    padding: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+h1 {
+    color: rgb(116, 104, 104);
+    padding: 2rem;
+    font-weight: 750;
+    font-size: 42px;
+}
+
+.addTask {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.addTask input {
+    border: 1px solid rgb(79, 78, 78);
+    border-radius: 5px 0px 0px 5px;
+    width: 400px;
+    padding: 2vh;
+    background-color: rgb(203, 212, 220);
+}
+
+.btn {
+    border: 1px solid rgb(79, 78, 78);
+    border-radius: 0px 5px 5px 0px;
+    padding: 2vh;
+    background-color: blue;
+}
+
+.btn-add {
+    background-color: rgb(5, 90, 7);
+}
+
+.btn-save {
+    background-color: blue;
+}
+
+.output {
+    width: 100%;
+    padding: 1rem;
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#addedtasklist {
+    width: 100%;
+}
+
+.btn-edit {
+    padding: 1vh;
+    background-color: rgb(232, 243, 41);
+}
+
+.btn-delete {
+    padding: 1vh;
+    background-color: red;
+}
+
+#addedtasklist td,
+#addedtasklist th {
+    padding: 8px;
+}
+
+#addedtasklist tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#addedtasklist tr:hover {
+    background-color: rgb(171, 168, 168);
+}
