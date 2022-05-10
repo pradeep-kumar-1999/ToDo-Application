@@ -1,2 +1,2 @@
 # ToDo-Application
-this repo is f ToDo List Application using javascript
+this repo is of ToDo List Application using javascript
